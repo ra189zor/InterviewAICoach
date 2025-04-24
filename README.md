@@ -1,7 +1,5 @@
 # Interview AI Coach
 
-![Interview Coach Banner](https://img.freepik.com/free-vector/job-interview-concept-illustration_114360-1484.jpg?w=1480&t=st=1713950000~exp=1713950600~hmac=example) <!-- Replace with your own banner or logo -->
-
 > **Your AI-powered personal interview practice assistant!**
 
 ---
@@ -91,7 +89,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ---
 
 ## 📫 Contact
-For support or questions, please open an issue or contact [your-email@example.com](mailto:abkk70686@gmail.com).
+For support or questions, please open an issue or contact [mailto:abkk70686@gmail.com].
 
 ---
 
