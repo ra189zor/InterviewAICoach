@@ -89,7 +89,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ---
 
 ## 📫 Contact
-For support or questions, please open an issue or contact [mailto:abkk70686@gmail.com].
+For support or questions, please open an issue or contact abkk70686@gmail.com.
 
 ---
 
