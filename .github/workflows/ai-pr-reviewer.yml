@@ -1,0 +1,23 @@
+name: AI Code Review
+on:
+  pull_request:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      # 2. Check out your code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 3. Run CodeRabbit reviewer
+      - name: Run AI reviewer
+        uses: coderabbitai/ai-pr-reviewer@latest
+        env:
+          # Built‑in token for GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Your OpenAI key (you’ll add this next)
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        with:
+          
+          debug: false
