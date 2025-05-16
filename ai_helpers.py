@@ -238,7 +238,7 @@ def generate_feedback(question, answer):
 def get_job_title():
     """Safely get job title from session state or return a default value."""
     if 'job_title' not in st.session_state:
-        st.session_state['job_title'] = "Software Developer"  # Default value
+        st.session_state['job_title'] = "Software Developer"  
     return st.session_state['job_title']
 
 # Clear cache function
@@ -246,3 +246,5 @@ def clear_cache():
     """Clear the time-based cache for the intelligence profiler."""
     get_intelligence_profile.clear_cache()
     st.success("Cache cleared successfully!")
+
+# This comment triggers CodeRabbit to review the file
