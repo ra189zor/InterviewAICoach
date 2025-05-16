@@ -6,12 +6,12 @@ def check_password():
     """Returns True if the user had the correct password."""
 
     # Read password from Streamlit secrets or default.
-    # **Important:** Set this password in Streamlit Community Cloud Secrets!
+    
     correct_password = st.secrets.get("APP_PASSWORD", "default_password") # Replace "default_password" ONLY for local testing if needed
 
     if "password_correct" not in st.session_state:
         # First run, show input for password.
-        st.session_state["password_correct"] = False # Initialize state
+        st.session_state["password_correct"] = False # Initialize password state
 
     if st.session_state["password_correct"]:
         # Password previously entered correctly
@@ -132,4 +132,5 @@ else:
     st.info("Enter your job details in the sidebar to the left and click 'Start Interview Prep' to begin! ✨")
 
 st.caption("by AB")
-            
+# This comment triggers CodeRabbit to review the file
+#             
